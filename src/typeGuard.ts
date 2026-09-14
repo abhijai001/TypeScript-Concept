@@ -1,5 +1,5 @@
 function getChai(kind: string | number) {
-  if (typeof kind === "string") {
+  if (typeof kind === "string") { // ye bata rha value ka actual type kya hai 
     return `Making ${kind} chai...`;
   }
 
